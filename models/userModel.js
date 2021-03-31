@@ -1,37 +1,54 @@
-// Model (usually gets data from database, in this case data is hard coded)
 'use strict';
-
 const pool = require('../database/db');
 const promisePool = pool.promise();
 
 const getAllUsers = async () => {
   try {
-    const [rows] = await promisePool.query('SELECT user_id, name, email FROM wop_user');
-    console.log('something back from db?', rows);
+    const [rows] = await promisePool.execute('SELECT * FROM wop_user');
     return rows;
   } catch (e) {
-    console.error('error', e.message);
+    console.error('userModel:', e.message);
   }
 };
 
-const getAllUsersSort = async (order) => {
+const getUser = async (id) => {
   try {
-    const [rows] = await promisePool.query(`SELECT user_id, name, email FROM wop_users ORDER BY ${order}`);
-    return rows;
+    console.log('userModel getUser', id);
+    const [rows] = await promisePool.execute('SELECT * FROM wop_user WHERE user_id = ?', [id]);
+    return rows[0];
   } catch (e) {
-    console.error('error', e.message);
+    console.error('userModel:', e.message);
   }
 };
 
-const insertUser = async (user) => {
-  const [row] = await promisePool.execute('INSERT INTO wop_user (name, email, password) VALUES (?, ?, \'foo\')', [user.name, user.email]);
-  console.log('insert row', row);
-  return row.insertId;
+const insertUser = async (req) => {
+  try {
+    const [rows] = await promisePool.execute('INSERT INTO wop_user (name, email, password) VALUES (?, ?, ?);',
+        [req.body.name, req.body.email, req.body.passwd]);
+    console.log('userModel insert:', rows);
+    return rows.insertId;
+  } catch (e) {
+    console.error('userModel insertUser:', e);
+    return 0;
+  }
 };
 
+const updateUser = async (id, req) => {
+  try {
+    const [rows] = await promisePool.execute('UPDATE wop_user SET name = ?, email = ?, password = ? WHERE user_id = ?;',
+        [req.body.name, req.body.username, req.body.passwd, id]);
+    console.log('userModel update:', rows);
+    return rows.affectedRows === 1;
+  } catch (e) {
+    return false;
+  }
+};
+
+//TODO: delete function. Consider no return needed? just best effort...
 
 module.exports = {
   getAllUsers,
-  getAllUsersSort,
+  getUser,
   insertUser,
+  updateUser
 };
