@@ -15,11 +15,10 @@ const login = (req, res) => {
         res.send(err);
       }
       // generate a signed son web token with the contents of user object and return it in the response
-      const token = jwt.sign(user, 'q1w2e3r4adsffgrh34564fasd45gd54');
+      const token = jwt.sign(user, 'gfdrtfyui987654rtyuio8765ewwertyu');
       return res.json({user, token});
     });
   })(req, res);
-
 };
 
 module.exports = {
