@@ -1,23 +1,28 @@
 {
-  "name": "week2",
+  "name": "nodejs-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "teaching node.js with express server",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jesse Julenius",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.metropolia.fi:wtpk-2021/nodejs-demo.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "routing",
+    "midleware",
+    "database connexion"
+  ],
+  "author": "Patrick Ausderau",
+  "license": "GPL-3.0",
   "dependencies": {
-    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-validator": "^6.10.0",
-    "jsonwebtoken": "^8.5.1",
     "multer": "^1.4.2",
-    "mysql2": "^2.2.5",
-    "passport": "^0.4.1",
-    "passport-jwt": "^4.0.0",
-    "passport-local": "^1.0.0"
+    "mysql2": "^2.2.5"
   }
 }
