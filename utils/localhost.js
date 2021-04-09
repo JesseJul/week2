@@ -18,6 +18,6 @@ const httpsRedirect = (req, res) => {
 };
 
 module.exports = (app, httpsPort, httpPort) => {
-   https.createServer(options, app).listen(httpsPort);
-   http.createServer(httpsRedirect).listen(httpPort);
+  https.createServer(options, app).listen(httpsPort);
+  http.createServer(httpsRedirect).listen(httpPort);
 };
