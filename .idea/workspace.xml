@@ -2,31 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68eba50-841b-4b96-b236-c510a93d1f8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/authController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/authRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/imageMeta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/pass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/resize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/userController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index5.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main5.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/userRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/userRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/css/style5.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/index5.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main4.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main5.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/js/mapbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/mapbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/js/serialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/serialize.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
