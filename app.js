@@ -16,7 +16,9 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   require('./utils/localhost')(app, process.env.HTTPS_PORT || 8000, port);
 }
-
+app.get('/', (req, res) => {
+  res.send('Hello Secure World!');
+});
 
 app.use(cors());
 
@@ -24,9 +26,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
 app.use(express.static('uploads'));
-//app.use(express.json()); // for parsing application/json
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
-
+app.use('/thumbnails', express.static('thumbnails'));
 
 // routes
 app.use('/', rootRoute);

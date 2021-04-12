@@ -6,11 +6,6 @@ const router = express.Router();
 const { body } = require('express-validator');
 
 router.get('/', userController.user_list_get);
-router.post('/',
-    body('username').isLength({ min: 3 }),
-    body('username').isEmail(),
-    body('password').isStrongPassword({ minLength: 8, minUppercase: 1 }),
-    userController.user_create);
 
 router.get('/:id', userController.user_get_by_id);
 router.put('/:id', userController.user_update);

@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68eba50-841b-4b96-b236-c510a93d1f8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/authController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/authRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imageMeta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/pass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/resize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/userRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/userRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/css/style5.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/index5.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main4.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main5.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/js/mapbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/mapbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_public_html/js/serialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/serialize.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,14 +43,51 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1qvikrjfbzute0nZdDTBwRfNkWF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wtpk-2021-week2-week5" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\wtpk-kurssi\week2\public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f68eba50-841b-4b96-b236-c510a93d1f8c" name="Default Changelist" comment="" />
+      <created>1617966610758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617966610758</updated>
+      <workItem from="1617966612031" duration="1271000" />
+      <workItem from="1618230951299" duration="4788000" />
+    </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
