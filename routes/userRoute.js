@@ -1,17 +1,14 @@
-//'use strict'; module is strict by default 😉
+'use strict';
+// userRoute
 const express = require('express');
-const { body } = require('express-validator');
-const router = express.Router();
 const userController = require('../controllers/userController');
+const router = express.Router();
 
-router.route('/')
-.get(userController.user_list_get);
 
-router.route('/:id')
-.get(userController.user_get_by_id)
-.delete((req, res) => {
-  console.log('delete user', req.params);
-  res.send('delete user');
-});
+router.get('/', userController.user_list_get);
+
+router.get('/:id', userController.user_get_by_id);
+router.put('/:id', userController.user_update);
+router.delete('/:id', userController.user_delete);
 
 module.exports = router;

@@ -1,25 +1,24 @@
 'use strict';
-const ExifImage = require('exif').ExifImage;
+const {ExifImage} = require('exif');
 
 const getCoordinates = (imgFile) => { // imgFile = full path to uploaded image
   return new Promise((resolve, reject) => {
     try {
-      // coordinates below should be an array of GPS coordinates in decimal format: [longitude, latitude]
-      new ExifImage({ image : imgFile },  (error, exifData) => {
+      // TODO: Use node-exif to get longitude and latitude from imgFile
+      new ExifImage({image: imgFile}, function(error, exifData) {
         if (error) {
-          console.log('Error: ' + error.message);
-          reject(error);
+          reject(error.message);
         } else {
-          const longitude = gpsToDecimal(exifData.gps.GPSLongitude, exifData.gps.GPSLongitudeRef);
-          const latitude = gpsToDecimal(exifData.gps.GPSLatitude, exifData.gps.GPSLatitudeRef);
-          const coords = [longitude, latitude];
-          console.log("Coords: " + coords)
-          resolve(coords);
+          // console.log(exifData); // Do something with your data!
+          const lon = gpsToDecimal(exifData.gps.GPSLongitude, exifData.gps.GPSLongitudeRef);
+          const lat = gpsToDecimal(exifData.gps.GPSLatitude, exifData.gps.GPSLatitudeRef);
+          resolve([lon, lat]);
         }
       });
-    }
-    catch (error) {
-      reject(error);
+      // coordinates below should be an array of GPS coordinates in decimal format: [longitude, latitude]
+      // resolve(coordinates);
+    } catch (error) {
+      reject(error.message);
     }
   });
 };

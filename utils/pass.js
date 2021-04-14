@@ -17,8 +17,7 @@ passport.use(new Strategy(
         if (user === undefined) {
           return done(null, false, {message: 'Incorrect credentials.'});
         }
-        //if (user.password !== password) {
-        if (!await bcrypt.compare(password, user.password)) {
+        if (!bcrypt.compare(password, user.password)) {
           return done(null, false, {message: 'Incorrect credentials.'});
         }
         delete user.password; // poista salasana
@@ -31,10 +30,10 @@ passport.use(new Strategy(
 // TODO: JWT strategy for handling bearer token
 passport.use(new JWTStrategy({
       jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken(),
-      secretOrKey: 'erdtfgyuhjiklö2u42ijkl243463466dfhg',
+      secretOrKey: 'gfdrtfyui987654rtyuio87asd65ewwertyu',
     },
     async (jwtPayload, done) => {
-
+      console.log(jwtPayload);
       //find the user in db if needed. This functionality may be omitted if you store everything you'll need in JWT payload.
       try {
         const user = await userModel.getUser(jwtPayload.user_id);
