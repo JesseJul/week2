@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68eba50-841b-4b96-b236-c510a93d1f8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/authController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/catController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/catController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/catModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/catModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/mapbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/serialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/catRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/catRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/userRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/userRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/imageMeta.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/imageMeta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/pass.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/pass.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/resize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week2_public_html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/week2_public_html/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/week2_public_html/index3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/week2_public_html/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/week2_public_html/js/main2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main3.js" beforeDir="false" afterPath="$PROJECT_DIR$/week2_public_html/js/main3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/js/main4.js" beforeDir="false" afterPath="$PROJECT_DIR$/week2_public_html/js/main4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week2_public_html/js/main5.js" beforeDir="false" afterPath="$PROJECT_DIR$/week2_public_html/js/main5.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wtpk-2021-week2-week5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -87,7 +50,10 @@
       <updated>1617966610758</updated>
       <workItem from="1617966612031" duration="1271000" />
       <workItem from="1618230951299" duration="4788000" />
-      <workItem from="1618380240281" duration="10684000" />
+      <workItem from="1618380240281" duration="12017000" />
+      <workItem from="1618479246054" duration="13000" />
+      <workItem from="1618569340131" duration="1218000" />
+      <workItem from="1619426530697" duration="61000" />
     </task>
     <servers />
   </component>
